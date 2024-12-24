@@ -9,7 +9,7 @@ cask "brew-services-manage" do
     verified: "github.com/persiliao/brew-services-manage/"
   name "Brew Services Manage"
   desc "macOS Menu Bar application for managing Homebrew services."
-  homepage "https://persiliao.com/arts/homebrew-services-manage"
+  homepage "https://github.com/persiliao/brew-services-manage"
 
   livecheck do
     url :url
