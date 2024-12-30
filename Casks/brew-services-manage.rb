@@ -1,9 +1,9 @@
 cask "brew-services-manage" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.1.0"
-  sha256 arm:   "7a1d7700ede687e01b355409f887e75fc71ce2d4c385e1bee23b3ed89d98c6c9",
-         intel: "5fde5cc134d285a6715615cfbb8b3dad41490cdab6977e58d895f5601d441a95"
+  version "1.1.1"
+  sha256 arm:   "9f7bf2241248752ef141e46653c75b9355f7c6bbd1229f38ce1a4ea943c93541",
+         intel: "0c56eed975f221fa187793931cbe1fa6602e8bb0793e200318f6d5c42fb2993f"
   
   url "https://github.com/persiliao/brew-services-manage/releases/download/#{version}/Brew.Services.Manage_#{version}_#{arch}.dmg", 
     verified: "github.com/persiliao/brew-services-manage/"
